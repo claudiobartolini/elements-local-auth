@@ -1,0 +1,12 @@
+{
+  "boxAppSettings": {
+    "clientID": "2z64obr5wr123qiwqn09fmcdvjd06txk",
+    "clientSecret": "wCU8jvHgVyCeJSNifu9AniDGlvGYKIg0",
+    "appAuth": {
+      "publicKeyID": "oviqofny",
+      "privateKey": "-----BEGIN ENCRYPTED PRIVATE KEY-----\nMIIFDjBABgkqhkiG9w0BBQ0wMzAbBgkqhkiG9w0BBQwwDgQIGO+yOc1QFykCAggA\nMBQGCCqGSIb3DQMHBAgbhxAE9goIJASCBMhMs78DYDlBgtMIwlDmdg9xeZ60et/r\n2jLjVwFKdvGM6tkC/9hr9bb0z4ensFIp5f/UjHbcUGxnZ8eNmOPynvHb2fV/OZPT\nr8KXxqjfjYkXf0hZGQOMjIq85tgZj9TorZ8ZK/7mMtJQKbJppLvXNkyBJ931w4DS\no0fXhe4cahaZRTLjMAqJTK/1Xu37K49zgdPGm+1GizUtP0YSjeTcbahfSaPMnijD\nIfGVjMqRnzgQhARnwwzx7MMQaxYLwEaGE/wQMSbEkdgi2/sZb/2tplDVEoPXoNKH\njwR8+dGqp/okdtVsbCuaJBRkdNOyEnYJ1Q0vl3VuGdQ2pBjQ677hbAQ7L7UmmLxT\nd5h1BGjHCuzFGJuVwiXwxKNDX5TsiIJaNtJKiOJQNXVctNboN+QvD6b5okjPwcB8\nYr3r0g0K2h7PrsomSJWPifaruuShvVxR7K5DGKL6XSoMj96dKDJnecd9gXQVMly7\nEUhySsQTfouL0zL/gpJqqQ/XIPNSMbMz9hRm1xee5pgC32nFyYPBIEOHfhn9iUQo\nIlzL9Jv1oMc1A9HPzbvz2qAWshlo1ng4DvF6C8EgtxjYEspgiSWOzePN3iy8J2kl\n5zmErBW8sdCSzmtlUecCAsijkdqZkoZuFnmedfBSQ8cdkkWRLvC7DFbk0Gwl9ruE\n/8t9cnSCYmVKDyjUukGNNg6fn7Gz/J/jeq5r46PP3sAQvl7dxa055uVf4w0fAaPr\n6JC1shWvBBeyqoj2qc5ItOXKh+Ebd6bxG/GPdbnlHleglO5Qw8KZYs6xYYkMmyIQ\ncst9SkDyVfS2xGHmpGeBnYF8Luuxud1rc9NtbDNc190x6mgQjGEev3IR343eO8/i\np/XzzzV35qweNgFk7o//V4SfadrZjvHletWMPvE6h7Q6oFVbQvCoqk7+vtiGp0pn\n1tKJvRpoOm95z70g9oJR2G7DVavOF83AxgqjnONdg3zO4E5y4/dzcys8Rl80fX6S\npG2TV89go518M7P2XNyf8aDym48mwTmvSG4mqhVqMh/3PzxqWGljKEeIjb5E8Kcu\nkOKX3N8KIcUQ34NxGPagGwISqx2RgSyOhFlHElYm4BWpmiJppOptim1SdnAiw6t0\nz98JEbagGJNSI5FjNXDIzaGy8RbLouDR6RtBc8nW8a9qv2npksQT+aCvzlEh5ng+\n24z78wvE1FZgP1KvIxyiYmhgKh9Y4gIrD5qT1gWXHxmz7q5qfmOv6AWC+OGB6Da9\n5mR7Le3IU9vA91NNzYL915otBsbEpS6xAiUqAtTiQkaMTyj2Xfq06BJO+gZlkSm/\n+w7gglGqr98NDTIdU7juh+AqAk1wAzmFUIMwrhRzYkh6jDPBPYN4AxvCXdHHFciJ\nIAXEng8s4JAm+R2ic0jBUllezonku4rnn9nUcUfYm24Fu3w6Gn9PW7NvZjWBHmZX\nmo5/9XINl0J2Rkjb7dclExKGcbVwHftvf9KudEIDfGPW/91s78vg0MWbWb6Zz5vx\nrHeEUiBdAt/iIGXklRsbVltuzRBxV7lo+hNPOh3xhYrZ7spEvcNifd3cLIG64cTn\nEBv29HDRxFdjgH0UG83HbW9OaG4qrUcYAphNFuBIsI+V2BAsSB8jQdoNh5sWqDrG\nsbQ=\n-----END ENCRYPTED PRIVATE KEY-----\n",
+      "passphrase": "a645745502fe69aab5eeaf4d02ae9ec9"
+    }
+  },
+  "enterpriseID": "44168077"
+}

@@ -1,0 +1,15 @@
+version: '2'
+services:
+  redis:
+      image: 'redis:3.0-alpine'
+      command: redis-server --requirepass securepassword
+      ports:
+        - '6379:6379'
+  app:
+    build: ./app
+    volumes:
+      - "./app:/app"
+    ports:
+      - "3000:3000"
+    links:
+      - "redis"
