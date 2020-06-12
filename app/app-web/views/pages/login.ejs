@@ -1,20 +1,5 @@
 <% include ../partials/common/header %>
 
-<script src="https://cdn.auth0.com/js/lock/10.21.1/lock.min.js"></script>
-<div id="root" style="width: 280px; margin: 40px auto; padding: 10px;"></div>
-<script type="text/javascript">
-    var lock = new Auth0Lock('<%= env.AUTH0_CLIENT_ID %>', '<%= env.AUTH0_DOMAIN %>', {
-        auth: {
-            redirectUrl: '<%= env.AUTH0_CALLBACK_URL %>',
-            responseType: 'code',
-            params: {
-                scope: 'openid email' // Learn about scopes: https://auth0.com/docs/scopes
-            }
-        }
-    });
-    lock.show({
-        container: 'root'
-    });
-</script>
+<a href="/auth/box">Login with box</a>
 
 <% include ../partials/common/footer %>

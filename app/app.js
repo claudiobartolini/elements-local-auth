@@ -11,9 +11,9 @@ const CacheService = require('./cache-service/cacheService');
 const config = require('config');
 
 const passport = require('passport');
-const strategy = require('./identity-service/passport-strategies/auth0-strategy');
+const strategy = require('./identity-service/passport-strategies/box-strategy');
 
-const Auth0Config = config.get('Auth0Config');
+const BoxConfig = config.get('BoxConfig');
 
 let webapp = require('./app-web/routes/index');
 
@@ -31,11 +31,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'app-web', 'public')));
 
-app.use(session({
-	secret: Auth0Config.sessionSecret,
-	resave: true,
-	saveUninitialized: true,
-	store: new SessionCache({ client: new CacheService().getCacheClient() })
+app.use(require('express-session')({
+    secret: 'keyboard cat',
+    resave: false,
+    saveUninitialized: false
 }));
 app.use(passport.initialize());
 app.use(passport.session());

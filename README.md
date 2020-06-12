@@ -1,4 +1,4 @@
-# box-node-express-skeleton-app
+# elements-local-auth
 
 ## Prerequisites
 * [Node.js](https://nodejs.org/en/)
@@ -43,31 +43,6 @@
     boxConfigFilePath: Path to your Box Config file generated when creating a new Box App.
     // For example, boxConfigFilePath: "config.json"
     ```
-
-#### Auth0 Configuration
-Additionally, since you manage the identity and authorization for your Box App Users within your Node Express application, you'll need an identity service to fully utilize JWT authentication on behalf of your App Users.
-
-For that reason, we've included the needed code and setup for an identity service provider named Auth0. You'll need to sign up for a free Auth0 account.
-
-##### Step 1. Sign up for a free Auth0 account and configure your first client.
-1. Sign up for a free trial account at [Auth0's site](https://auth0.com/).
-2. You can optionally view their setup and quickstart materials by selecting **Web App** from their [documentation page](https://auth0.com/docs).
-3. Navigate to the [clients page](https://manage.auth0.com/#/clients). You should automatically have a client name **Default**.
-4. In the "Allowed Callback URLs" section, add `http://localhost:3000/callback`.
-5. Set the "Client Type" to "Regular Web Application".
-6. Retrieve the following values:
-    * Domain
-    * Client ID
-    * Client Secret
-
-#### Step 2. Add Auth0 configuration values to the Node Express application.
-1. Navigate to `box-node-express-skeleton-app` > `config` > `default.js`
-2. In the `default.js` file, replace these values with those from your Auth0 client:
-    * Under `module.exports.Auth0Config`
-    * `clientId`
-    * `clientSecret`
-    * `domain`
-
 
 ### Build and Run
 
